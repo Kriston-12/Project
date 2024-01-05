@@ -5,6 +5,8 @@ class Controls {
         this.right = false;
         this.reverse = false; 
         this.#addKeyboardListeners();
+        // The hash symbol (#) before the method name indicates that it's a private method in a class, 
+        // meaning it can only be accessed or called from within the class itself, not from outside.
     }
     #addKeyboardListeners() {
         document.onkeydown=(event)=>{
